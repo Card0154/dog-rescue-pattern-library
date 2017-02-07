@@ -5,8 +5,8 @@
   --color-accent: #000001;
   --color-neutral: #f3f3f3;
 
-  --font-primary: "Roboto", Helvetica, sans-serif;
-  --font-secondary: "Droid Sans", Arial, sans-serif;
+  --font-primary: "Roboto", helvetica, sans-serif;
+  --font-secondary: "Droid Sans", arial, sans-serif;
 }
 
 html {
