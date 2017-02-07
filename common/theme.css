@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #0071bc;
+  --color-primary-light: #29abe2;
+  --color-primary-dark: #2e3192;
+  --color-accent: #000001;
+  --color-neutral: #f3f3f3;
+
+  --font-primary: "Roboto", Helvetica, sans-serif;
+  --font-secondary: "Droid Sans", Arial, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
