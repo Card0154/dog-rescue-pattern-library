@@ -57,3 +57,7 @@ em, strong {
   font-weight: var(--bold);
   color: var(--color-primary-dark);
 }
+
+mark {
+  background-color: var(--color-primary-light);
+}
