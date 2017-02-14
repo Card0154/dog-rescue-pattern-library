@@ -19,4 +19,4 @@ colors:
     The neutral colour is the variation of the accent colours which will primarily be used to break up sections of content. It is an off-white, which will provide easier readability and organization of content.
 ---
 
-This is the company introduction-we're so amazing and our brand signifies awesomeness!
+Loyal Rescue is a foster-based rescue, aimed at matching all of these amazing animals with equally amazing homes!
