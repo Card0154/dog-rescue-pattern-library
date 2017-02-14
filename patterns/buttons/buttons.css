@@ -1,13 +1,37 @@
 .btn {
   background-color: var(--color-primary);
-  border-color: var(--color-primary);
+  border-color: transparent;
+
+  color: #fff;
+
+  font-size: 1.067rem;
+  line-height: 1.625rem;
+
+  transition: background-color 500ms ease;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-dark);
+  border-color: transparent;
 
   color: #fff;
 }
 
 .btn-light {
   background-color: var(--color-primary-light);
-  border-color: var(--color-primary-light);
+  border-color: transparent;
+
+  color: #fff;
+
+  font-size: 1.067rem;
+  line-height: 1.625rem;
+
+  transition: background-color 500ms ease;
+}
+
+.btn-light:hover {
+  background-color: var(--color-primary);
+  border-color: transparent;
 
   color: #fff;
 }
@@ -17,4 +41,21 @@
   border-color: var(--color-primary);
 
   color: var(--color-primary);
+
+  font-size: 1.4757rem;
+  line-height: 1.95rem;
+
+  transition: background-color 500ms ease;
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+
+  color: #fff;
+}
+
+.btn-small {
+  font-size: .9372rem;
+  line-height: 1.3rem;
 }
