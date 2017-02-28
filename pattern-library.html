@@ -20,6 +20,7 @@
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#typography">Typography</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#grid">Grid</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#modules">Modules</a></li>
+              <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#icons">Icons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
           </ul>
@@ -371,6 +372,39 @@
 
 </section>
 
+        <section class="pattern" id="icons">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Icons</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The sprite sheet contains the following icons that are available for use in the website. Combine the icons with <a href="https://modulifier.web-dev.tools">Modulifier</a> classes for lots of variability.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="icons-icons">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/icons/1-icons.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;i class="icon i-192"&gt;
+  &lt;svg>&lt;use xlink:href="images/icons.svg#ID-FROM-LIST"/>&lt;/svg>
+&lt;/i>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="buttons">
   <div class="push">
     <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
@@ -424,6 +458,10 @@
         </nav>
     </div>
 
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The cards provide additional information &amp; separate them from the rest of the organized body content.</p>
+</div>
+      </div>
   </div>
 
   
@@ -433,6 +471,10 @@
           <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
             <h3 class="pattern-name tera push-1-8">Basic card</h3>
           </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The basic card is used as the link card, and redirects to the main hub of information.</p>
+</div>
+            </div>
         </div>
 
       <div class="pattern-examples">
@@ -441,12 +483,12 @@
         </div>
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;div&gt;
-  &lt;a class="card island-1-2" href="">
+              <code><pre>&lt;div class="inline-block relative"&gt;
+  &lt;a href="#">
     &lt;div>
-      &lt;img class="embed-item" src="http://placeholdit/1x1" alt="">
+      &lt;img class="image" src="http://placehold.it/250x250" alt="">
     &lt;/div>
-    &lt;p class="push-1-4">&lt;/p>
+    &lt;p class="bottom-center">This is an animal&lt;/p>
   &lt;/a>
 &lt;/div>
 </pre></code>
@@ -459,6 +501,10 @@
           <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
             <h3 class="pattern-name tera push-1-8">Icon card</h3>
           </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The icon card is a static card, which only provides the grassroots information, and does not redirect. It is used simply for organizing certain blocks of information into a logical and appealing format.</p>
+</div>
+            </div>
         </div>
 
       <div class="pattern-examples">
@@ -467,7 +513,19 @@
         </div>
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>
+              <code><pre>&lt;div class="inline-block relative"&gt;
+  &lt;a href="#">
+    &lt;div>
+      &lt;img class="image" src="http://placehold.it/250x250" alt="">
+    &lt;/div>
+    &lt;div class="card island-1-2 text-center bottom-right">
+      &lt;i class="icon i-32 push-1-2">
+          &lt;svg>&lt;use xlink:href="../../images/icons.svg#heart-icon"/>&lt;/svg>
+        &lt;/i>
+      &lt;p class="push-1-4">Adopted!&lt;/p>
+    &lt;/div>
+  &lt;/a>
+&lt;/div>
 </pre></code>
             </div>
           </div>
