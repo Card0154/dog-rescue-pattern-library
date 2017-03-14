@@ -588,6 +588,7 @@
         <nav class="pattern-nav milli">
           <ol class="list-group-inline pad-t-1-4 push-0">
               <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#forms-application">Application</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#forms-filter">Filter</a></li>
               <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#forms-login">Login</a></li>
           </ol>
         </nav>
@@ -623,7 +624,7 @@
               <code><pre>&lt;form class="max-length island grid" method="post" novalidate=""&gt;
   &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
     &lt;h3 class="push-0">
-        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="../../images/icons.svg#error"/>&lt;/svg>&lt;/i>
         &lt;span class="icon-label">There are items that require your attention&lt;/span>
       &lt;/h3>
   &lt;/div>
@@ -711,6 +712,39 @@
 
   &lt;div class="pad-t-1-2 gutter-1-2 unit xs-1 s-1 m-1 l-1 xl-1">
     &lt;button class="btn" type="submit">Send&lt;/button>
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="forms-filter">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Filter</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/forms/filter.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island grid" method="post"&gt;
+  &lt;div class="push-1-2 gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+    &lt;h2>Gender&lt;/h2>
+    &lt;div class="radio-group">
+      &lt;div class="block push-eighth">
+        &lt;input type="radio" name="group1" id="male" value="male">
+        &lt;label for="male">Male&lt;/label>
+      &lt;/div>
+      &lt;div class="block push-eighth">
+        &lt;input type="radio" name="group1" id="female" value="female">
+        &lt;label for="female">Female&lt;/label>
+      &lt;/div>
+    &lt;/div>
   &lt;/div>
 &lt;/form>
 </pre></code>
