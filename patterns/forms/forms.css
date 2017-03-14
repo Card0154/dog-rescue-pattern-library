@@ -64,3 +64,14 @@ html {
 textarea {
   min-height: 150px;
 }
+
+input[type="radio"] + label:before {
+  margin-right: 5px;
+  padding: 8px;
+  width: 14px;
+  height: 14px
+}
+
+.radio-group label {
+  margin-right: 20px;
+}
