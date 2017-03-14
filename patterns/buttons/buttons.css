@@ -59,3 +59,10 @@
   font-size: .9372rem;
   line-height: 1.3rem;
 }
+
+.button {
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -80%);
+  -webkit-transform: translate(-50%, -80%);
+}

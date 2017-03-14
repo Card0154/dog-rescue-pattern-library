@@ -1,0 +1,17 @@
+.banner {
+  min-height: 700px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("../../images/placeholder.jpg");
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.slogan {
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -45%);
+  -webkit-transform: translate(-50%, -45%);
+}
+
+h2, p {
+  color: #fff;
+}
