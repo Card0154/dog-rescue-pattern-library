@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Login Form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Roboto:400,400i,700" rel="stylesheet">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
+  <link href="forms.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <form class="max-length island grid" method="post" novalidate>
+    <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+      <h3 class="push-0">
+        <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">There are items that require your attention</span>
+      </h3>
+    </div>
+
+    <div class="push-1-2 gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      <label for="name">Name</label>
+      <input id="name" required aria-describedby="name-error" placeholder="Enter your name">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide a name</span>
+      </p>
+    </div>
+
+    <div class="push-1-2 gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      <label for="email">Email</label>
+      <input type="email" id="email" required aria-describedby="email-error" placeholder="loyalrescue@info">
+      <p class="error-message milli island-1-4 push-0" id="email-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide an email address</span>
+      </p>
+    </div>
+
+    <div class="push-1-2 gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      <label for="tel">Phone Number</label>
+      <input type="tel" id="tel" required aria-describedby="tel-error" placeholder="XXX–XXX–XXXX">
+      <p class="error-message milli island-1-4 push-0" id="tel-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide a phone number</span>
+    </div>
+
+    <div class="push-1-2 gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      <label for="age">Age</label>
+      <input type="number" id="age" required aria-describedby="age-error" placeholder="——">
+      <p class="error-message milli island-1-4 push-0" id="age-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide an age</span>
+    </div>
+
+    <div class="push-1-2 gutter-1-2 unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4">
+      <label for="type">Type</label>
+      <select name="type" id="type">
+        <option value="placeholder">…</option>
+        <option value="work">Work</option>
+        <option value="cell">Cell</option>
+      </select>
+    </div>
+
+    <div class="push-1-2 pad-t gutter-1-2 unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4">
+      <select name="type" id="choose">
+        <option value="placeholder">…</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+
+    <div class="push-1-2 gutter-1-2 unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4">
+      <label for="type">Type</label>
+      <select name="type" id="type-alt">
+        <option value="placeholder">…</option>
+        <option value="work">Work</option>
+        <option value="cell">Cell</option>
+      </select>
+    </div>
+
+    <div class="push-1-2 pad-t gutter-1-2 unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4">
+      <select name="type" id="choose-alt">
+        <option value="placeholder">…</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+
+    <div class="push-1-2 gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      <label for="description">Description</label>
+      <textarea name="type" id="description"></textarea>
+    </div>
+
+    <div class="push-1-2 gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      <label for="description-alt">Description 2</label>
+      <textarea name="type" id="description-alt"></textarea>
+    </div>
+
+
+    <div class="pad-t-1-2 gutter-1-2 unit xs-1 s-1 m-1 l-1 xl-1">
+      <button class="btn" type="submit">Send</button>
+    </div>
+  </form>
+
+
+  <script src="http://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+
+</body>
+</html>

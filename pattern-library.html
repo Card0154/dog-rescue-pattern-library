@@ -24,6 +24,7 @@
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#banners">Banners</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#forms">Forms</a></li>
           </ul>
         </nav>
       </div>
@@ -436,11 +437,11 @@
             <div class="pattern-code milli island-1-2">
               <code><pre>&lt;section class="banner max-width text-center relative push"&gt;
   &lt;div class="width-full block absolute slogan">
-    &lt;h2 class="yotta normal text-center push-0 font">Every animal is looking&lt;/h2>
-    &lt;h2 class="zetta normal text-center push-0 font">for the right home.&lt;/h2>
+    &lt;h2 class="yotta normal text-center push-0 font">EVERY ANIMAL IS LOOKING&lt;/h2>
+    &lt;h2 class="zetta normal text-center push-0 font">FOR THE RIGHT HOME&lt;/h2>
   &lt;/div>
   &lt;div class="absolute button">
-    &lt;a class="btn" href="#products">Come meet them&lt;/a>
+    &lt;a class="btn btn-light" href="#">Come meet them&lt;/a>
   &lt;/div>
 &lt;/section>
 </pre></code>
@@ -534,7 +535,7 @@
     &lt;div>
       &lt;img class="image" src="http://placehold.it/250x250" alt="">
     &lt;/div>
-    &lt;p class="bottom-center">This is an animal&lt;/p>
+    &lt;p class="bottom-center center-text">This is an animal&lt;/p>
   &lt;/a>
 &lt;/div>
 </pre></code>
@@ -572,6 +573,76 @@
     &lt;/div>
   &lt;/a>
 &lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="forms">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Forms</h2>
+    </div>
+
+  </div>
+
+  
+
+    <div class="pattern-details push" id="forms-login">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/forms/login.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label for="name">Name&lt;/label>
+    &lt;input id="name" required aria-describedby="name-error">
+    &lt;p class="error-message milli island-1-4 push-0" id="name-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please provide a name&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label for="email">Email&lt;/label>
+    &lt;input type="email" id="email" required aria-describedby="email-error">
+    &lt;p class="error-message milli island-1-4 push-0" id="email-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label for="url">Website &lt;em class="flag-optional milli normal">(optional)&lt;/em>&lt;/label>
+    &lt;input type="url" id="url">
+  &lt;/div>
+
+  &lt;div class="push-1-2 pad-t-1-2">
+    &lt;input type="checkbox" id="agree" required aria-describedby="agree-error">
+    &lt;label for="agree">I&apos;m totally awesome!&lt;/label>
+    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please agree that you&apos;re totally awesome&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="pad-t-1-2">
+    &lt;button class="btn" type="submit">Send&lt;/button>
+  &lt;/div>
+&lt;/form>
 </pre></code>
             </div>
           </div>

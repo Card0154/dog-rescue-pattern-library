@@ -66,3 +66,25 @@
   transform: translate(-50%, -80%);
   -webkit-transform: translate(-50%, -80%);
 }
+
+.btn-white {
+  padding: 0 .3em;
+  background-color: #fff;
+  border-radius: 0;
+  border-color: grey;
+  border-width: 2px;
+
+  color: var(--color-primary-dark);
+
+  font-size: .75rem;
+  line-height: 1.7rem;
+
+  transition: background-color 500ms ease;
+}
+
+.btn-white:hover {
+  background-color: var(--color-primary-dark);
+  border-color: transparent;
+
+  color: #fff;
+}

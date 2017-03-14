@@ -1,0 +1,66 @@
+html {
+  font-family: var(--font-secondary);
+}
+
+.flag-optional {
+  color: #999;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.error-message {
+  width: 100%;
+  display: none;
+  background-color: #fee;
+  color: #c33;
+}
+
+.error-message-highlighted {
+  z-index: 3;
+  position: absolute;
+  bottom: -66px;
+  margin: 0;
+  width: 100%;
+  background-color: transparent;
+}
+
+.error-message-highlighted h3 span {
+  color: #f33;
+  font-size: 1rem;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
+
+.login-form {
+  z-index: 2;
+  padding: .5em 0;
+  width: 100%;
+  background-color: var(--color-primary-dark);
+  box-shadow: 0 1px 5px #888;
+}
+
+.login-width label {
+  display: inline-block;
+  color: #fff;
+  padding-right: .2em;
+}
+
+.login-width input {
+  width: 250px;
+  display: inline-block;
+}
+
+.pad-fix {
+  padding-left: 2em;
+}
+
+textarea {
+  min-height: 150px;
+}
