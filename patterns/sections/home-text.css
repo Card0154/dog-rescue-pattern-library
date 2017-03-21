@@ -1,0 +1,15 @@
+html {
+  background-color: #fafafa;
+}
+
+section {
+  border-top: 5px solid rgba(20, 95, 145, .5);
+}
+
+h2 {
+  padding-right: 2%;
+  background-color: #fafafa;
+  display: inline-block;
+  left: 0;
+  top: -10%;
+}
