@@ -1,5 +1,6 @@
 html {
   background-color: #fafafa;
+  color: #fff;
 }
 
 section {
@@ -12,4 +13,54 @@ h2 {
   display: inline-block;
   left: 0;
   top: -10%;
+}
+
+footer {
+  padding-bottom: .1%;
+  background-color: var(--color-primary);
+}
+
+.border {
+  border-top: 1px solid #fff;
+}
+
+h3, p, a {
+  color: #fff;
+  transition: all 200ms ease;
+}
+
+a:hover {
+  color: var(--color-primary-light);
+}
+
+.margin-fix {
+  margin: auto;
+}
+
+.footer-link .unit {
+  width: 25%;
+}
+
+.hide {
+  display: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .hide {
+    display: block;
+  }
+
+  .footer-link .unit {
+    width: auto;
+  }
+
+  .footer-link {
+    justify-content: space-between;
+  }
+
+  footer {
+    padding-top: .5%;
+  }
+
 }
