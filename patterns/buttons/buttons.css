@@ -18,7 +18,8 @@
 }
 
 .btn-light {
-  background-color: var(--color-primary-light);
+  background-color: rgba(20, 95, 145, .5);
+
   border-color: transparent;
 
   color: #fff;
@@ -30,7 +31,7 @@
 }
 
 .btn-light:hover {
-  background-color: var(--color-primary);
+  background-color: rgba(20, 95, 145, .75);
   border-color: transparent;
 
   color: #fff;
@@ -61,10 +62,10 @@
 }
 
 .button {
-  left: 50%;
-  top: 80%;
-  transform: translate(-50%, -80%);
-  -webkit-transform: translate(-50%, -80%);
+  left: 10%;
+  top: 60%;
+  transform: translateY(-60%);
+  -webkit-transform: translateY(-60%);
 }
 
 .btn-white {

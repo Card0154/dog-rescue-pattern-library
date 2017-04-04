@@ -1,0 +1,25 @@
+.nav {
+  background-color: transparent;
+}
+
+.links {
+  color: #fff;
+  transition: all 200ms ease;
+}
+
+.links:hover {
+  color: var(--color-primary-light);
+}
+
+.logo {
+  height: 25px;
+  width: 200px;
+}
+
+.focus-border {
+  border-bottom: 5px solid rgba(20, 95, 145, .5);
+}
+
+.pad-bot {
+  padding-bottom: 5px;
+}

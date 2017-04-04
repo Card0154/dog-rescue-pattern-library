@@ -1,17 +1,38 @@
 .banner {
-  min-height: 700px;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("../../images/placeholder.jpg");
-  background-size: cover, cover;
-  background-repeat: no-repeat, no-repeat;
+  height: 775px;
+  background-image: url("../../images/sunset-fix.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: calc(100% + 20em) center;
 }
 
 .slogan {
-  left: 50%;
+  left: 10%;
   top: 45%;
-  transform: translate(-50%, -45%);
-  -webkit-transform: translate(-50%, -45%);
+  transform: translate(0%, -45%);
+  -webkit-transform: translate(0%, -45%);
 }
 
-h2, p {
+.white {
   color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner {
+    background-position: calc(100% + 10em) center;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    background-position: right center;
+  }
+
+
+
 }

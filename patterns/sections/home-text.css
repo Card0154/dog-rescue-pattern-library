@@ -1,13 +1,12 @@
 html {
   background-color: #fafafa;
-  color: #fff;
 }
 
-section {
+.divider {
   border-top: 5px solid rgba(20, 95, 145, .5);
 }
 
-h2 {
+.title {
   padding-right: 2%;
   background-color: #fafafa;
   display: inline-block;
@@ -15,7 +14,7 @@ h2 {
   top: -10%;
 }
 
-footer {
+.footer {
   padding-bottom: .1%;
   background-color: var(--color-primary);
 }
@@ -24,12 +23,16 @@ footer {
   border-top: 1px solid #fff;
 }
 
-h3, p, a {
+.text {
   color: #fff;
   transition: all 200ms ease;
 }
 
-a:hover {
+.white {
+  color: #fff;
+}
+
+.text:hover {
   color: var(--color-primary-light);
 }
 
@@ -59,7 +62,7 @@ a:hover {
     justify-content: space-between;
   }
 
-  footer {
+  .footer {
     padding-top: .5%;
   }
 
