@@ -32,14 +32,14 @@
     background-position: right center;
   }
 
-    .slogan {
-      left: 10%;
-      top: 45%;
-      transform: translate(0%, -45%);
-      -webkit-transform: translate(0%, -45%);
-      text-align: left;
-      font-size: 1.5745rem;
-      line-height: 2.275rem;
-    }
+  .slogan {
+    left: 10%;
+    top: 45%;
+    transform: translate(0%, -45%);
+    -webkit-transform: translate(0%, -45%);
+    text-align: left;
+    font-size: 1.5745rem;
+    line-height: 2.275rem;
+  }
 
 }
