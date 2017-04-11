@@ -24,16 +24,6 @@
     background-position: calc(100% + 10em) center;
   }
 
-  .slogan {
-    left: 10%;
-    top: 45%;
-    transform: translate(0%, -45%);
-    -webkit-transform: translate(0%, -45%);
-    text-align: left;
-    font-size: 1.5745rem;
-    line-height: 2.275rem;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -41,4 +31,15 @@
   .banner {
     background-position: right center;
   }
+
+    .slogan {
+      left: 10%;
+      top: 45%;
+      transform: translate(0%, -45%);
+      -webkit-transform: translate(0%, -45%);
+      text-align: left;
+      font-size: 1.5745rem;
+      line-height: 2.275rem;
+    }
+
 }
