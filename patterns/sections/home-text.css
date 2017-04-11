@@ -11,7 +11,7 @@ html {
   background-color: #fafafa;
   display: inline-block;
   left: 0;
-  top: -10%;
+  top: -6%;
 }
 
 .footer {
@@ -64,6 +64,16 @@ html {
 
   .footer {
     padding-top: .5%;
+  }
+
+  .title {
+    top: -10%;
+    padding-left: 0;
+  }
+
+  .pad-fix {
+    padding-left: 0;
+    padding-right: 0;
   }
 
 }
