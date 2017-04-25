@@ -32,19 +32,23 @@
   filter: blur(1px) brightness(80%);
 }
 
+.xs-1-2, .s-1-2 {
+  width: 48%;
+}
+
 .pad-nudge, .pad-nudge-last {
-  margin: 5% 10%;
+  margin: 1%;
 }
 
 @media only screen and (min-width: 38em) {
 
   .pad-nudge {
-    width: 49.5%;
+    width: 48%;
     margin: 1% 1% 0 0;
   }
 
   .pad-nudge-last {
-    width: 49.5%;
+    width: 48%;
     margin: 1% 0 0;
   }
 

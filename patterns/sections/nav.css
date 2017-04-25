@@ -2,6 +2,10 @@
   background-color: transparent;
 }
 
+.nav-col {
+  background-color: var(--color-primary);
+}
+
 .links {
   color: #fff;
   transition: all 200ms ease;
@@ -22,6 +26,10 @@
 
 .focus-border {
   border-bottom: 5px solid rgba(20, 95, 145, .5);
+}
+
+.focus-border-white {
+  border-bottom: 5px solid #fff;
 }
 
 .pad-bot {

@@ -2,6 +2,10 @@ html {
   background-color: #fafafa;
 }
 
+.border-fix {
+  margin: 0 2%;
+}
+
 .divider {
   border-top: 5px solid rgba(20, 95, 145, .5);
 }
@@ -12,6 +16,18 @@ html {
   display: inline-block;
   left: 0;
   top: -6%;
+}
+
+.title-application {
+  padding-right: 2%;
+  background-color: #fafafa;
+  display: inline-block;
+  left: 0;
+  top: -3.5%;
+}
+
+.background-white {
+  background-color: #fff;
 }
 
 .footer {
@@ -48,6 +64,18 @@ html {
   display: none;
 }
 
+@media only screen and (min-width: 25em) {
+
+  .title-application {
+    padding-right: 2%;
+    background-color: #fafafa;
+    display: inline-block;
+    left: 0;
+    top: -5%;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .hide {
@@ -68,6 +96,11 @@ html {
 
   .title {
     top: -10%;
+    padding-left: 0;
+  }
+
+  .title-application {
+    top: -6%;
     padding-left: 0;
   }
 
