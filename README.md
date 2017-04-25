@@ -19,9 +19,6 @@ colors:
     The accent colours are simply to break up the rich primary colours and provide contrast. Use them for body copy, reversed text, and different shades as section dividers.
   neutral: |
     The neutral colour is the variation of the accent colours which will primarily be used to break up sections of content. It is an off-white, which will provide easier readability and organization of content.
-brand:
-  logos:
-    backgroundColor: "#f6f6f6"
 ---
 
 Loyal Rescue is a foster-based rescue, aimed at matching all of these amazing animals with equally amazing homes!
